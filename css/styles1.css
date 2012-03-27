@@ -1,0 +1,1374 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #FEFEFE url(../images/bkgd_site.gif) top center repeat-x;
+  text-align: center;
+  color: #666666;
+}
+
+.nobackground {
+  background: #FFFFFF;
+}
+.transparent 
+{
+  background: transparent;
+}
+
+p, div, td {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a, a:link, a:active, a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666666;
+  text-decoration: underline;
+}
+
+#shadow {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+#lightboxHelp 
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+
+#lightbox 
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxItemSearch
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxCD
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxTender 
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+
+#lightboxframe 
+{
+  width: 800px;
+  height: 600px;
+  background-color: White;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+#lightboxFramePO
+{
+  background-color: White;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+#lightboxframeCD 
+{
+  width: 800px;
+  height: 600px;
+  background-color: White;
+  position: fixed;
+  top: 15%;
+  left:20%;
+}
+#lightboxframeIS 
+{
+  width: 778px;
+  height: 528px;
+  background-color: White;
+  position: fixed;
+  top: 15%;
+  left:20%;
+}
+#lightboxCustomer
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxTimeClock
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxReturn
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxTransactions
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxTransdetails
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxReceipt
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxSecure
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxUtility
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxAccount
+{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+#lightboxAccountFrame 
+{
+  width: 915px;
+  height: 600px;
+  background-color: White;
+  margin-top: 10%;
+}
+#receiptDoc 
+{
+  text-align: left;
+}
+
+#site {
+  width: 1024px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+#topshim {
+  line-height: 1px;
+}
+
+#mastheadholder {
+  background: #0F4B93;
+  text-align:center;
+}
+
+#masthead {
+  margin:0px auto;
+  text-align:left;
+  position: relative;
+  z-index: 3;
+  width: 1024px;
+  height: 132px;
+  background: #0F4B93 url(../images/bkgd_topnav.png) top left repeat-x;
+}
+#mastheadnoUC {
+  margin:0px auto;
+  text-align:left;
+  position: relative;
+  z-index: 3;
+  width: 1024px;
+  height: 132px;
+  background: #0F4B93 url(../images/bkgd_topnav.png) top left repeat-x;
+}
+
+#mastheadlogin {
+  margin:0px auto;
+  text-align:center;
+  position: relative;
+  z-index: 3;
+  width: 1024px;
+  height: 132px;
+  background: #0F4B93 url(../images/logo.png) top left repeat-x;
+}
+
+#mastheadLighBox {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 75px;
+  background-color: #D1D1D1;
+}
+
+#lightboxhead {
+  text-align:left;
+  border-bottom:1px solid #ffffff;
+  padding:4px;
+  font-size:14px;
+  line-height:14px;
+  background:url(../images/bkgd_table_header_lightbox.gif) top left repeat-x;
+}
+#lightboxbody {
+  height: 540px;
+  overflow-y: auto;
+}
+#logo {
+  position: absolute;
+  top: 5px;
+  left: 19px;
+}
+
+#logo_login {padding-top:5px;}
+
+#topnav {
+  position: absolute;
+  bottom: 0px;
+  right: 22px;
+  line-height: 1px;
+}
+
+#topnav ul {
+  margin: 0px;
+  padding: 0px;
+  height:37px;
+}
+
+#topnav li {
+  width: auto;
+  display: inline;
+  list-style: none;
+  margin:0px;
+}
+
+#storeinfo {
+  position: absolute;
+  top: 18px;
+  right: 27px;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+#storeinfo td {padding-left:20px;}
+
+#search {
+  z-index: 2;
+  position: absolute;
+  top: 12px;
+  right: 17px;
+}
+
+#searchform img, #searchform input {
+  vertical-align: middle;
+}
+
+#searchbox {
+  position: relative;
+  float: left;
+  display: inline;
+  width: 274px;
+  height: 41px;
+  background: url(../images/bkgd_search.gif) top left no-repeat;
+}
+
+.searchboxtext {
+  margin-top: 6px;
+  margin-left: 40px;
+  width: 214px;
+  height: 15px;
+  font-size: 10px;
+  background: transparent;
+  border-width: 0px;
+  color: #666666;
+}
+
+#searchpulldown {
+  position: relative;
+  float: left;
+  display: inline;
+  width: 166px;
+  height: 41px;
+  background: url(../images/bkgd_search_pulldown.gif) top left no-repeat;
+}
+
+#searchpulldowntext {
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#searchpulldowntext a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#searchpulldownbutton {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+#searchpulldownmenu {
+  position: absolute;
+  top: 27px;
+  left: 10px;
+  width: 126px;
+  background: #6A9039;
+}
+
+#searchpulldownmenu li {
+  list-style: none;
+}
+
+.searchpulldownoption {
+  line-height: 16px;
+  display: block;
+  padding: 2px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+a.searchpulldownoption {
+  color: #FFFFFF;
+}
+
+a.searchpulldownoption:hover {
+  background: #000000;
+}
+
+#content {
+  position: relative;
+  height: 636px;
+  background: url(../images/bkgd_cashier.png) bottom center no-repeat;
+}
+
+#content_2_column {
+  position: relative;
+  height: 636px;
+  background: url(../images/bkgd_full.png) bottom center no-repeat;
+}
+
+#content_full {
+  position: relative;
+  height: 636px;
+  background: url(../images/bkgd_full.png) bottom center no-repeat;
+}
+
+#content_login {
+  margin:0px auto;
+  text-align:left;
+  width:374px;
+  height: 200px;
+  padding:52px 57px 52px 57px;
+  background: url(../images/bkgd_login.png) bottom center no-repeat;
+}
+
+#content_login h1 {font-size:24px; line-height:40px; padding-left:62px; margin-left:57px; background:url(../images/icon_login.png) center left no-repeat;}
+#content_login ul {list-style-type:none;}
+#content_login li {margin:15px;}
+#content_login li * {vertical-align:middle;}
+#content_login li.submit {padding-left:108px; margin-top:20px;}
+#content_login label {line-height:30px; font-size:18px; width:100px; display:inline-block; text-align:right; margin-right:5px;}
+#content_login input[type="text"], #content_login input[type="password"] {line-height:30px; font-size:18px; padding:0px 5px 0px 5px; width:220px; height:30px;}
+#login_error {text-align:center; margin-top:50px;}
+
+#content_secure {
+  text-align:center;
+  padding:10px;
+  background: #E2E2E2 url(../images/bkgd_lock.gif) top left repeat-x;
+}
+
+#content_secure h1 {font-size:24px; line-height:40px; padding-left:52px; background:url(../images/icon_login.png) center left no-repeat;}
+#content_secure ul {list-style-type:none;}
+#content_secure li {margin:15px;}
+#content_secure li * {vertical-align:middle;}
+#content_secure li.submit {margin-top:20px;}
+#content_secure li.submit a.change_password {line-height:30px;}
+#content_secure label {line-height:30px; font-size:18px; width:100px; display:inline-block; text-align:right; margin-right:5px;}
+#content_secure input[type="text"], #content_secure input[type="password"] {line-height:30px; font-size:18px; padding:0px 5px 0px 5px; width:100px; height:30px;}
+
+#subnav {
+  padding:15px 0px 15px 25px;
+  font-weight: bold;
+}
+
+#subnav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#subnav li {
+  display: inline;
+  list-style: none;
+  margin-right: 11px;
+  font-size: 13px;
+}
+
+.storenumber {
+  margin-left: 375px;
+}
+
+#itemlisting {
+  position: absolute;
+  top: 50px;
+  left: 26px;
+  width: 571px;
+  height: 562px;
+}
+
+#leftchannel {
+  position: absolute;
+  top: 50px;
+  left: 26px;
+  width: 775px;
+  height: 562px;
+  text-align: left;
+}
+#leftchannel_transaction {
+  position: absolute;
+  top: 50px;
+  left: 26px;
+  width: 775px;
+  height: 552px;
+  text-align: left;
+  overflow:hidden;
+}
+
+#leftchannel_customer {
+  float: left;
+  display: inline;
+  width: 776px;
+  height: 562px;
+  text-align: left;
+}
+
+#header {
+  position: relative;
+  height: 43px;
+}
+
+#manager_header {
+  position: relative;
+  height: 43px;
+  border-bottom: 1px solid #8d8d8d;
+  clip:auto;
+  overflow:hidden;
+}
+
+#header h1, #manager_header h1 {
+  margin: 10px;
+  padding: 0px;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+#helplink {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#rightchannel {
+  position: absolute;
+  top: 42px;
+  left: 801px;
+  width: 176px;
+  height: 540px;
+  padding: 10px;
+  text-align: left;
+  background: #f8f8f8;
+}
+
+#rightchannel_customer {
+  float: left;
+  display: inline;
+  width: 176px;
+  height: 488px;
+  padding: 10px;
+  text-align: left;
+  background: #f8f8f8;
+}
+
+#rightchannel h2, #mgrRightChannel h2, #rightchannel_customer h2 {
+  margin-bottom: 9px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#channel_full {
+  position: absolute;
+  top: 50px;
+  left: 26px;
+  width: 974px;
+  height: 562px;
+}
+#channel_return {
+  position: absolute;
+  top: 50px;
+  left: 1px;/**/
+  width: 450px;
+  height: 250px;
+  text-align:center;
+}
+#menuchannel 
+{
+  position: absolute;
+  top: 44px;
+  left: 1px;
+  width: 194px;
+  height: 508px;
+  background:#f8f8f8;
+  border-right:1px solid #8d8d8d;
+}
+#menuchannel ul {list-style-type:none;}
+
+#menuchannelcompany
+{
+  position: absolute;
+  top: 43px;
+  left: 1px;
+  width: 260px;
+  height: 508px;
+  background:#FFFFFF;
+  border-right:1px solid #8d8d8d;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+#menuchannelcompany * {font-size:11px;}
+#menuchannelcompany img {margin-right:3px;}
+
+#CompanySetupWorkArea 
+{
+  position: absolute;
+  top: 43px;
+  left: 261px;
+  width: 711px;
+  height: 508px;
+}
+
+#menuchannel h2 {margin:13px 15px 3px 15px; font-size:11px; font-weight:bold;}
+#menuchannel ul {padding-bottom:5px;}
+#menuchannel li {padding-left:15px; padding-bottom:5px;}
+#menuchannel li a {font-size:11px;}
+#ManagerWorkArea 
+{
+  position: absolute;
+  top: 44px;
+  left: 196px;
+  width: 776px;
+  height: 508px;
+}
+#mgrFullChannel
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 765px;
+  height: 505px;
+}
+#mgrRightChannel {
+  position: absolute;
+  top: 0px;
+  left: 582px;
+  width: 173px;
+  height: 487px;
+  background-color: #f8f8f8;
+  text-align: left;
+  padding: 10px;
+}
+#mgrLeftChannel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 582px;
+  height: 507px;
+  background-color: #ffffff;
+  overflow: auto;
+}
+#mgrFullChannel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 774px;
+  height: 506px;
+  background-color: #ffffff;
+}
+#customerheader {
+  padding: 5px;
+  height: 90px;
+}
+
+
+
+#returnmain h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#returnmain h3 {
+  font-size: 14px;
+  font-weight:bold;
+}
+
+#returnmain h1 {
+  font-size: 20px;
+  font-weight:bold;
+}
+
+#returnmain 
+{
+  /*float: left;*/
+  display: inline;
+  width: 100%;
+  text-align: center;
+  /*margin-right: 20px;*/
+}
+
+#partialmain 
+{
+  display: inline;
+  width: 100%;
+  text-align: left;
+  margin: 15px;
+}
+
+#itemheader {
+  height: 28px;
+}
+
+#items {
+  width: 100%;
+  height: 360px;
+  clip: auto;
+  overflow: auto;
+  background: #F1F1F1;
+  border-bottom: 1px solid #8d8d8d;
+}
+
+.itemtable {
+  border-collapse: collapse;
+}
+
+.itemtable th {
+  background: url(../images/bkgd_table_header_items.gif) top left repeat-x;
+  border-top: 1px solid #8d8d8d;
+  border-bottom: 1px solid #8d8d8d;
+  border-right: 1px solid #B4B8B7;
+  vertical-align: bottom;
+  padding: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.row {
+  background-color: #FFFFFF;
+}
+
+.rowalternate {
+  background-color: #FCFCFC;
+}
+
+.rowalternate td, .row td {
+  vertical-align: top;
+  border: 1px solid #D3D3D3;
+  border-top: 0px;
+  border-left: 0px;
+  padding: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 11px;
+  height: 24px;
+}
+
+.itemsku, .itemdescription, .itemqty, .itemtax, .itemprice {
+  background: transparent;
+  border-width: 0px;
+  color: #666666;
+}
+
+.itemsku {
+  width: 90px;
+}
+
+.itemdescription {
+  width: 240px;
+}
+
+.itemqty {
+  width: 34px;
+}
+
+.itemtax {
+  width: 38px;
+}
+
+.itemprice {
+  width: 60px;
+}
+
+.taxcheckbox {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+}
+
+#itemtotal {
+  padding-top:10px;
+  padding-right: 20px;
+}
+
+#totalprice {
+  color: #484848;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: right;
+  font-weight: bold;
+}
+#totalprice .totallabel {margin:0px; padding:0px; font-size:15px; line-height:15px; color:#8A8A8A;}
+
+#discount {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  font-weight: bold;
+}
+
+#mainsalenav {
+  position: absolute;
+  top: 56px;
+  left: 607px;
+  width: 113px;
+  height: 552px;
+  line-height: 1px;
+}
+
+#mainsalenav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#mainsalenav li {
+  float: left;
+  display: inline;
+  width: 113px;
+  height: 105px;
+  list-style: none;
+  margin-bottom: 3px;
+  line-height: 105px;
+}
+
+#secondarysalenav {
+  position: absolute;
+  top: 58px;
+  left: 747px;
+  width: 235px;
+  height: 548px;
+}
+
+#secondarysalenav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#secondarysalenav li {
+  float: left;
+  display: inline;
+  width: 231px;
+  height: 57px;
+  list-style: none;
+  margin-bottom: 3px;
+  line-height: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background: url(../images/btn_optional.gif) top left no-repeat;
+}
+
+#secondarysalenav li.dimmed {
+  background: url(../images/btn_optional.gif) top left no-repeat;
+}
+
+#secondarysalenav li a {
+  display: block;
+  width: 100%;
+  color: #666666;
+  text-decoration: none;
+}
+
+.spacer {
+  clear: both;
+}
+
+.left {float:left; text-align:left; display:inline; margin-right:30px; width:auto;}
+
+#frmCashRegisterDetails {padding:20px 30px 30px 20px;}
+#frmCashRegisterDetails h3 {padding:10px 0px 10px 0px;}
+#frmCashRegisterDetails * {text-align:left;}
+#frmCashRegisterDetails ul {list-style-type:none;}
+#frmCashRegisterDetails label {display:inline-block; width:80px !important; margin-right:5px;}
+#frmCashRegisterDetails li {margin:0px 0px 15px 0px;}
+#frmCashRegisterDetails .nolabel {padding-left:88px;}
+#frmCashRegisterDetails li * {vertical-align:middle;}
+#frmCashRegisterDetails input[type="text"], #frmCashRegisterDetails select {width:150px; margin-right:5px; font-size:12px;}
+
+#TotalArea 
+{
+  background-color:Black;
+  color:White;
+}
+
+.GreenTotal 
+{
+  color:Green;
+  font-size:18px;
+}
+
+.RedTotal
+{
+  color: Red;
+  font-size: 18px;
+}
+
+.TopReport
+{
+  border-color: #666666;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  background-color: #e5f1c9;
+}
+
+.TopReport A
+{
+  color: Black;
+  font-family: Arial;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.TopReportHeader
+{
+  color:#666666;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.HelpLink
+{
+  color: #000000;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 9px;
+  font-family: Arial;
+  vertical-align: middle
+}
+
+.PageTitle
+{
+  color: #666666;
+  font-family: Arial;
+  font-size: 21px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+.PageTitleWhite
+{
+  color: white;
+  font-family: Arial;
+  font-size: 21px;
+  font-weight:bold;
+  line-height: 24px;
+  vertical-align: middle;
+}
+.LightBox
+{
+  border-top: solid 2px #FFFFFF;
+  border-right: solid 2px #FFFFFF;
+  border-left: solid 2px #FFFFFF;
+  border-bottom: solid 2px #FFFFFF;
+  background-color: #FFFFFF;
+  color: #346102;
+  font-family: Arial;
+  font-size: 21px;
+  vertical-align: middle;
+}
+.LightBoxTitle
+{
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
+}
+.LightBoxSubtitle
+{
+  background-color: #84B444;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
+}
+.LightBoxBody
+{
+  background-color: #F3F7E6;
+  color: #000000;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+.LightBoxBodyTable
+{
+  background-color: #F3F7E6;
+  color: #000000;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+.LightBoxFooter
+{
+  background-color: #E9F2D7;
+  color: #000000;
+  font-family: Arial;
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.BodyLabel
+{
+  color: #666666;
+  font-family: Arial;
+  font-size:13px;
+  line-height: 16px;
+
+}
+
+.DataLabel
+{
+  color:GrayText;
+  font-family: Arial;
+  font-size: 13px;
+  vertical-align: middle
+}
+
+.GridView
+{
+  border: 0px;
+  background-color: White;
+  font-family: Arial;
+  width: 100%;
+  text-align: left;
+  font-size: 11px;
+  font-style:normal
+}
+
+.GridView th {
+  background: #CFCFCF url(../images/bkgd_table_header.gif) top left repeat-x;
+  color: #666666;
+  padding: 3px;
+  font-size:13px;
+  border-right: 1px solid #B4B8B7;
+  border-bottom: 1px solid #8d8d8d;
+}
+
+.GridView th a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.GridView th a:hover {
+  text-decoration: underline;
+}
+
+.GridView td {
+  padding:5px;
+  border-right:1px solid #D3D3D3;
+  border-bottom:1px solid #D3D3D3;
+}
+
+.RowStyle
+{
+  text-align:left;
+  background-color: #FFFFFF;
+  color: #666666;
+  font-family: Arial;
+  font-size: 11px;
+  font-style: normal;
+  vertical-align: middle;
+}
+.AlternatingRowStyle
+{
+  background-color: #FCFCFC;
+}
+.EmptyDataRowStyle
+{
+
+}
+.GridViewHyperLink
+{
+  text-align: left;
+  text-decoration: underline;
+}
+.FooterStyle
+{	
+  height: 17px;
+  padding: 0px;
+}
+.PagerStyle
+{
+  background-color: #D9D9D9;
+  text-align: right;
+  font-family: Arial;
+  height: 48px;
+}
+.PagerStyle td {border:0px !important;}
+#btncal1, #btncal2
+{
+  height: 20px;
+  vertical-align: bottom;
+}
+.MenuHeader 
+{
+  position: relative;
+  top:10px;
+  left: 10px;
+  width: 175px;
+}
+
+.MenuHeader ul 
+{
+  list-style-type: none;
+}
+
+.MenuHeaderLabel
+{
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #666666;
+}
+
+.MenuItem
+{
+  position: relative;
+  top: 5px;
+  left: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  border: none;
+  text-decoration: underline;
+
+}
+
+.DetailPageSection
+{
+  position: relative;
+  top: 0;
+  left: 10px;
+  text-align: left;
+  width: 780px;
+  height: 570px
+}
+.DetailPageSectionHeader
+{
+  color: #666666;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #666666;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.aspTextBoxDataEntry
+{
+  text-align: left;
+}
+.aspTextBoxDataEntryLocked
+{
+  text-align: left;
+  background-color: #cccccc;
+}
+.RequiredField
+{
+  color: Red;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #666666;
+}
+
+.WhiteLabel {
+  font-weight: bold;
+  font-size: 13px;
+  color: White;
+}
+
+#helpnav {
+  width: 175px;
+  height: 488px;
+  background:#f8f8f8;
+  text-align: left;
+  padding: 10px;
+  border-right: 1px solid #8d8d8d;
+}
+#helptext {
+  width: 756px;
+  height: 488px;
+  overflow-y: auto;
+  position:absolute;
+  top:44px;
+  left:196px;
+  padding:10px;
+  background:#FFFFFF;
+}
+#LeftNav_NavList {
+  width: 175px;
+  text-align: left;
+}
+#LeftNav_NavList td {
+  padding-bottom:5px;
+}
+#LeftNav_NavList td td {
+  padding-left:10px;
+}
+.SiteNavigation, .SiteNavigation_Selected {
+  text-align: left;
+  font-size: 11px;
+}
+.SiteNavigation_Top {
+}
+.SiteNavigation_Top, .SiteNavigation_Top a {
+  font-size: 12px;
+  width: 175px;
+}
+#contentSummaryDiv {
+}
+.HiddenColumn
+{
+  display: none;
+}
+
+#tabs{
+  margin-top: 0px;
+  padding: 0;
+  background: transparent;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  padding-left: 0px;
+}
+#tabs ul{
+  font: bold 11px Arial, Verdana, sans-serif;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+#tabs li{
+  display:inline;
+  margin:0 0px 0 0;
+  padding:0;
+  text-transform:uppercase;
+}
+#tabs a{
+  float:left;
+  /*background:#A3BBE6 url(images/tabs_left.gif) no-repeat left top;*/
+  padding:0 0 0px 0px;
+  text-decoration:none;
+  border:none;
+
+}
+#tabs a span{
+  float:left;
+  display:block;
+  /*background: transparent url(images/tabs_right.gif) no-repeat right top;
+  padding:4px 9px 2px 6px;*/
+}
+#tabs a span{float:none;}
+/*#tabs a:hover{background-color: #7E94B9;color: white;}
+#tabs a:hover span{background-color: #7E94B9;}
+#tabHeaderActive span, #tabHeaderActive a { background-color: #42577B; color:#fff;}*/
+.tabContent {
+  clear:both;
+  /*border:0px solid #42577B;*/
+  padding-top:0px;
+  background-color:#FFF;
+}
+
+#gvItemList, #GridSuplList {table-layout:fixed;}
+#gvItemList td, #GridSuplList td {text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+
+#taskbox ul {margin:0px; padding:0px; border:2px solid #8d8d8d;}
+#taskbox li {text-align:left; background:url(../images/bkgd_contextual_menu.gif) top left repeat-x; border-bottom:1px solid #8d8d8d;}
+#taskbox li a {display:block; width:100%; height:34px; line-height:34px; padding:0px 10px 0px 30px;}
+#taskbox li.last {border-bottom:0px;}
+#taskbox li.remove a {background:url(../images/icon_contextual_delete.png) 5px 8px no-repeat;}
+#taskbox li.discount a {background:url(../images/icon_contextual_discount.png) 5px 8px no-repeat;}
+#taskbox li.weigh a {background:url(../images/icon_contextual_scale.png) 5px 8px no-repeat;}
+#taskbox li.cancel a {background:url(../images/icon_contextual_cancel.png) 5px 8px no-repeat;}
+#activexwarning div {text-align:center; background:#666666; color:#FFFFFF; margin:20px 0px 0px 0px; padding:20px; border:1px solid #000000;}
+#activexwarning div h1 {font-size:18px; line-height:24px; margin-bottom:10px;}
+#activexwarning div p {font-size:16px; margin-bottom:10px;}
+
+.get_started {text-align:left; background:#FFFFFF;}
+.get_started_left {width:429px; float:left; display:inline;}
+.get_started_left ul {width:429px; list-style-type:none; margin:0px; padding:0px;}
+.get_started_left li {position:relative; background:#B2B2B2 url(../images/bkgd_getting_started_bar.png) top left repeat-x; height:52px; border-right:1px solid #8d8d8d; border-bottom:1px solid #8d8d8d;}
+.get_started_left li a {display:block; width:100%; padding-left:20px; line-height:52px; font-size:16px; font-weight:bold; color:#FFFFFF;}
+.get_started_left li a span {font-size:21px; margin-right:20px;}
+.get_started_left li img {position:absolute; top:9px; right:11px; visibility:hidden;}
+.get_started_left li.viewed {background-color:#74A23B;}
+.get_started_left li.viewed img {visibility:visible !important;}
+.getting_started_right {width:230px; padding:20px; float:left;}
+.getting_started_right h3 {font-size:18px; margin-bottom:5px;}
+.getting_started_right h4 {font-size:14px; margin-bottom:20px;}
+.center {text-align:center;}
+
+.open_store, .add_item, .discount, .time_clock, .calculator, .tender {background:#FFFFFF;}
+#lb_new {text-align:left;}
+#lb_new h2 {border-bottom:1px solid #8d8d8d; padding:4px; font-size:14px; line-height:16px; background:url(../images/bkgd_table_header.gif) top left repeat-x;}
+#lb_new h3 {padding:10px; font-size:12px;}
+#lb_new h4 {padding:10px;}
+#lb_new ul {list-style-type:none;}
+#lb_new li {border-top:1px solid #DADADA; padding:4px 10px 4px 10px;}
+#lb_new li.actions {font-size:14px; font-weight:bold; text-align:right; padding:10px; background:#DADADA;}
+#lb_new li.actions_centered {text-align:center; padding:10px; background:#DADADA;}
+#lb_new li.actions_centered img, #lb_new li.actions_centered input[type="image"] {padding-bottom:5px;}
+#lb_new label {display:inline-block; width:100px; text-align:right; margin-right:5px;}
+#lb_new #btnClose, #lightboxhead #btnClose {position:absolute; top:2px; right:2px; cursor:pointer;}
+#lb_new #btnCancel {position:absolute; top:2px; right:2px; cursor:pointer;}
+#lb_new #btnCalendar, #lb_new #txtReportDate, #lb_new #btnYes, #lb_new #btnNo, #lb_new #btnSearch {vertical-align:middle;}
+
+.discount li img {margin-right:5px; cursor:pointer;}
+.discount li * {vertical-align:middle;}
+.tender li * {vertical-align:middle;}
+.tenders li.actions img, .tenders li.actions input[type="image"] {padding-top:5px;}
+
+.one_third {float:left; display:inline; width:33%;}
+.one_third h2 {text-align:center;}
+.one_third ul {margin:15px; padding:0px; list-style-type:none; border:1px solid #8d8d8d;}
+.one_third li {background:#FFFFFF; padding:5px; text-align:center;}
+.one_third td {text-align:right; height:25px;}
+.one_third td label {display:inline; width:50px !important; margin-left:5px; margin-right:0px !important;}
+.one_third td * {vertical-align:middle;}
+.one_third td input[type="text"] {margin-left:5px;}
+.one_third th, .calculator_total {text-align:center !important; padding:5px;}
+.one_third a {cursor:pointer;}
+.calculator_footer {font-size:16px; font-weight:bold; text-align:right; padding:5px 10px 5px 0px; background:#DADADA;}
+.one_half {width:486px; height:300px; background:#FFFFFF; overflow:hidden; margin:0px; padding:0px; float:left; display:inline;}
+
+.calendar table {border-collapse:collapse;}
+.calendar th {font-size:12px; color:#FFFFFF; background:#666666;}
+.calendar th a, .calendar th a:hover {color:#FFFFFF;}
+.calendar td {padding:1px; border:1px solid #666666;}
+
+#dash_nav {margin:-10px 10px 17px 10px;}
+#dash_nav * {vertical-align:middle;}
